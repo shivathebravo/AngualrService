@@ -21,3 +21,4 @@ export class DataService {
     //return of(userSettings);
   }
 }
+http://stacksecrets.com/dot-net-core/integrate-solr-instance-with-net-core
