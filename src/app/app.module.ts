@@ -10,8 +10,7 @@ import { OutletComponent } from './outlet/outlet.component';
 import { LoginComponent } from './login/login.component';
 import { ResetComponent } from './reset/reset.component';
 import { NotFoundComponent } from './not-found/not-found.component';
-import { ProductService } from './product.service';
-import { DetailsComponent } from './details/details.component';
+
 import { InstructionsComponent } from './instructions/instructions.component';
 
 const appRoutes:Routes=[
@@ -31,7 +30,7 @@ const appRoutes:Routes=[
     ResetComponent,
     OutletComponent,
     NotFoundComponent,
-    DetailsComponent,
+   
     InstructionsComponent
 
   ],
@@ -41,7 +40,7 @@ const appRoutes:Routes=[
     HttpClientModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [ProductService],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
